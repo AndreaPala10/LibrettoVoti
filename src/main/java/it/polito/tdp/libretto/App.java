@@ -20,9 +20,9 @@ public class App extends Application {
     	Parent root = loader.load();
     	Scene scene = new Scene(root) ;
 
-    	stage.setScene(scene);
+    	stage.setScene(scene);  
         stage.show();
-    }
+    }   //commento prova
 
     public static void main(String[] args) {
         launch();
